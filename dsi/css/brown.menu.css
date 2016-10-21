@@ -1,0 +1,225 @@
+#brown-nav {
+  background-color: #3a1e1b;
+  border-top: 2px solid #c00404;
+  display: block;
+  min-height: 40px;
+  width: 100%;
+  z-index: 333; }
+  #brown-nav .marginator,
+  #brown-footer .marginator{
+    position: relative; 
+    max-width: 1400px;
+    margin: auto;
+    padding: 0 50px;
+  }
+    #brown-nav .marginator:after,
+    #brown-footer .marginator:after{
+        content: '';
+        display: table;
+        clear: both;
+    }
+  #brown-nav header#brown-header {
+    background-color: #3a1e1b;
+    z-index: 44;
+    position: relative; }
+  #brown-nav h1 {
+    background-color: #3a1e1b;
+    text-indent: -9999em;
+    margin: 6px 0 0 0;
+    position: relative;
+    z-index: 500; }
+    #brown-nav h1 a {
+      display: block;
+      background-image: url(images/brown-university-hamburger-logo.png);
+      background-color: #3a1e1b;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 34px;
+      top: -6px;
+      background-position-y: 7px;
+      position: absolute; }
+  #brown-nav span.toggle {
+    display: block;
+    text-indent: -9999em;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 501;
+    width: 100%;
+    height: 30px; }
+    #brown-nav span.toggle a {
+      display: block; 
+      outline: none;
+    }
+  #brown-nav #u-nav {
+    margin: 0;
+    padding: 15px 24px 0 26px;
+    position: relative;
+    display: none;}
+    #brown-nav #u-nav .item-list {
+      display: inline-block;
+      margin: 0 0 30px;
+      padding: 0;
+      vertical-align: top;
+      width: 23%; }
+      #brown-nav #u-nav .item-list ul {
+        margin: 0 12px 0 0;
+        max-height: 150px;
+        overflow: hidden; }
+      #brown-nav #u-nav .item-list li {
+        list-style-type: none;
+        line-height: 1.3;
+        margin: 0 0 0.25em 0;
+        font-family: "Chronicle SSm A", "Chronicle SSm B", Times New Roman, serif; }
+        #brown-nav #u-nav .item-list li a {
+          color: #ffcc00;
+          display: block;
+          font-size: 14px; }
+      #brown-nav #u-nav .item-list h3 {
+        color: #fff;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", Garuda, "Roboto", Arial, Helvetica, sans-serif;
+        margin-bottom: .25em; 
+        font-size: 18px;}
+    #brown-nav.show #u-nav ul {
+      max-height: 400px; }
+    
+    /* Footer */
+ #brown-footer {
+  background-color: #3a1e1b;
+  border-top: 4px solid #c00404;
+  padding: 20px 0 20px 0; 
+  font-size: 14px;}
+  #brown-footer .block {
+    margin: 0 0 30px 0;
+    padding: 0 0 30px 0;
+    border-bottom: 1px dotted #ffffff; }
+    #brown-footer .block h2 {
+      color: #ffffff;
+      font-size: 1em;
+      text-transform: uppercase; }
+    #brown-footer .block li a {
+      color: #ffcc00; }
+  #brown-footer #footer ul.social-media a {
+    background-color: transparent;
+    background-image: url("images/social-icons-sprite.png");
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 3px;
+    text-indent: -999em;
+    border-radius: 2px; }
+  #brown-footer ul.social-media {
+    display: block;
+    margin: 0 0 20px 0;
+    min-height: 40px; 
+    padding: 0;}
+    #brown-footer ul.social-media li {
+      margin: 0 -2px 0 0;
+      display: inline-block; }
+    #brown-footer ul.social-media a {
+      background-color: transparent;
+      background-image: url("images/social-icons-sprite.png");
+      background-repeat: no-repeat;
+      display: block;
+      float: left;
+      width: 30px;
+      height: 30px;
+      margin-right: 3px;
+      text-indent: -999em;
+      border-radius: 2px;
+      opacity: 0.33; }
+      #brown-footer ul.social-media a:hover {
+        opacity: 1; }
+  #brown-footer #footer-facebook {
+    background-position: 0 0; }
+  #brown-footer #footer-facebook:hover {
+    background-position: 0 -40px; }
+  #brown-footer #footer-twitter {
+    background-position: -40px 0; }
+  #brown-footer #footer-twitter:hover {
+    background-position: -40px -40px; }
+  #brown-footer #footer-youtube {
+    background-position: -81px 0px; }
+  #brown-footer #footer-youtube:hover {
+    background-position: -81px -40px; }
+  #brown-footer #footer-itunesu {
+    background-position: -120px 0; }
+  #brown-footer #footer-itunesu:hover {
+    background-position: -120px -40px; }
+  #brown-footer #footer-google-plus {
+    background-position: -160px 0; }
+  #brown-footer #footer-google-plus:hover {
+    background-position: -160px -40px; }
+  #brown-footer #footer-linkedin {
+    background-position: -200px 0; }
+  #brown-footer #footer-linkedin:hover {
+    background-position: -200px -40px; }
+  #brown-footer #footer-next {
+    background-position: -240px 0; }
+  #brown-footer #footer-next:hover {
+    background-position: -240px -40px; }
+  #brown-footer #footer-snapchat {
+    background-position: -280px 0; }
+  #brown-footer #footer-snapchat:hover {
+    background-position: -280px -40px; }
+  #brown-footer #footer-instagram {
+    background-position: -320px 0; }
+  #brown-footer #footer-instagram:hover {
+    background-position: -320px -40px; }
+  #brown-footer #brown-contact h1 {
+    text-indent: -999em;
+    background: transparent url("images/brown-university-type-footer.svg") -2px 0 no-repeat;
+    height: 25px;
+    width: 270px;
+    background-size: contain;
+    margin: 0 0 5px 0; }
+  #brown-footer #brown-contact p {
+    color: #FFF;
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Garuda, "Roboto", Arial, Helvetica, sans-serif; }
+  #brown-footer #brown-contact a {
+    color: #ffcc00;
+    text-decoration: none; }
+    #brown-footer #brown-contact a:hover {
+      color: #f3f0ea;
+      text-decoration: underline; }
+  #brown-footer #give-to-brown {
+    margin: 0 0 30px 0;
+    padding: 0 0 40px 0; }
+
+a.giving-footer {
+  display: block;
+  text-indent: -999em;
+  background: transparent url(images/giving-to-brown.png) 50% 0 no-repeat;
+  height: 51px;
+  width: 192px;
+  margin-top: .5em; }
+
+#brown-footer .block, #brown-footer .block:first-of-type {
+    margin: 0 30px 0 30px;
+    padding: 0 30px 0 30px;
+    border-left: 1px dotted #ffffff;
+    border-right: none;
+    min-height: 200px; }
+    #brown-footer .block:first-of-type, #brown-footer .block:first-of-type:first-of-type {
+      margin: 0 30px 0 0; }
+  #brown-footer #give-to-brown {
+    margin: 0 0 0 0;
+    padding: 0 0 0 30px;
+    border-left: 1px dotted #ffffff;
+    border-right: none;
+    min-height: 200px; }
+  #brown-footer section {
+    padding: 0 0 30px 0;
+    margin: 0 0 30px 0;
+    border-bottom: none;
+    display: inline;
+    width: auto;
+    float: right;
+    width: 600px; }
+  #brown-footer #brown-contact {
+    clear: none;
+    float: left; } 
