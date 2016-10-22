@@ -7,7 +7,9 @@
   Drupal.behaviors.equalHeights = {
     attach: function (context, settings) {
 
-        $('.square-grid article h2.node-title a').matchHeight({
+        $('.square-grid article h2.node-title a').matchHeight({           
+        });
+        $('.people-grid .views-field-field-person-image').matchHeight({           
             byRow: false
         });
         $('.jcarousel article h2.node-title').matchHeight({

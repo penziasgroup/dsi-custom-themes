@@ -13,6 +13,12 @@
  * look under the "CSS" settings tab.
  */
 
+@media only screen and (min-width: 1518px) {
+    .section-academic-programs #content .block-menu-block{
+        padding-top: 225px;
+    }
+}
+
 @media only screen and (max-width: 480px) {
 
 }

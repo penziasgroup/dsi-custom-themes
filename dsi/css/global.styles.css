@@ -1300,6 +1300,62 @@ article,
     margin-right: 3px;
 }
 
+/* Secondary Menus */
+
+#content .block-menu-block{
+    
+}
+
+#content .block-menu-block ul.menu{
+    padding: 0;
+    margin: 0;
+}
+
+#content .block-menu-block ul.menu li{
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+}
+#content .block-menu-block ul.menu li:last-child{
+    padding-right: 0;
+}
+.field-name-field-big-link a,
+#content .block-menu-block ul.menu li a{
+    display: block;
+    background: #262626;
+    color: #FFF;
+    padding: 20px;
+    font-size: 30px;
+}
+.field-name-field-big-link a{
+    text-align: center;
+}
+.field-name-field-big-link a:hover,
+#content .block-menu-block ul.menu li a:hover,
+#content .block-menu-block ul.menu li a.active{
+    color: #ed1c24;
+}
+.section-academic-programs #content .block-menu-block{
+    background-image: url(images/academic-menu-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 15vw;
+    border-top: 2px solid #ed1c24;
+    margin-bottom: 35px;
+}
+.section-academic-programs #content .block-menu-block ul.menu li,
+.section-about #content .block-menu-block ul.menu li{
+    width: 25%;
+}
+
+.section-research #content .block-menu-block{
+    margin-bottom: 35px;
+}
+.section-research #content .block-menu-block ul.menu li{
+    width: 33.33%;
+}
+
+
 /* Front */
 
 .front #content .node-content,
@@ -1417,12 +1473,27 @@ article,
     background-repeat: no-repeat;
 }
 
-/* Basic Pages */
+/* Basic Pages & Paragraphs */
 
-.node-page .field-name-body{
+.node-page .field-name-body,
+.paragraphs-item-wysiwyg-content{
     max-width: 1200px;
 }
 
+.field-name-field-paragraphs > .field-items > .field-item{
+    margin-bottom: 35px;
+}
+
+.field-name-field-paragraphs > .field-items > .field-item:last-child{
+    margin-bottom: 0;
+}
+
+.section-research .paragraphs-items{
+    border-top: 2px solid #ed1c24;
+}
+.section-research .field-name-field-paragraphs > .field-items > .field-item:first-child .paragraphs-item-wysiwyg-content{
+    padding-top: 35px;
+}
 /* Paragraphs */
 .field-name-field-image-grid-item{
     margin-top: 35px;
@@ -1467,6 +1538,9 @@ article,
     padding: 20px 35px;
     font-size: 18px;
 }
+.people-grid .views-field-field-person-image{
+    background: #7f7f7f;
+}
 .people-grid .people-small-content:hover .name-grouping{
     background: rgba(237,28,36,.8); 
 }
@@ -1477,9 +1551,12 @@ article,
 .card-content-inner{
     font-size: 14px;
 }
+.card-content-inner .views-field-nothing-1{
+    margin-bottom: 15px;
+}
 .card-content-inner .first-last{
     font-size: 24px;
-    margin: 15px 0 5px;
+    margin: 0px 0 5px;
 }
 
 .person-contact{
