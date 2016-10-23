@@ -1258,7 +1258,8 @@ article,
 
 #header-wrapper{
     background-color: #ed1c24;
-    padding-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-bottom: 35px;
 }
 
@@ -1269,6 +1270,7 @@ article,
 .region-header,
 #search-glass{
     float: right;
+    padding-top: 90px;
 }
 #search-glass{
     cursor: pointer;
