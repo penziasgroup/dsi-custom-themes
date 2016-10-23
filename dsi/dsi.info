@@ -75,11 +75,12 @@
   ; For example if you want to load a script just for IE 8 and below use the
   ; following as a guide:
 
-  ; ie_scripts[lte IE 8][] = scripts/my-script.js
+  ; ie_scripts[lte IE 8][] = scripts/my-script.js 
     scripts[] = scripts/side_menu.js
     scripts[] = scripts/jcarousel.min.js
     scripts[] = scripts/matchHeight.js
-    scripts[] = scripts/scripts.js  
+    scripts[] = scripts/scripts.js
+    scripts[] = scripts/ate.min.js  
 
 ;----------// Regions
 

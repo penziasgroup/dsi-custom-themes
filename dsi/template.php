@@ -55,8 +55,7 @@ function dsi_process_html(&$vars) {
  */
 
 function dsi_preprocess_page(&$vars) {
-    drupal_add_js('jQuery.extend(Drupal.settings, { "pathToTheme": "' . file_create_url(path_to_theme()) . '" });', 'inline');
-    drupal_add_library('system','ui');   
+    drupal_add_js('jQuery.extend(Drupal.settings, { "pathToTheme": "' . file_create_url(path_to_theme()) . '" });', 'inline'); 
 }
 /* -- Delete this line if you want to use these functions
 function dsi_process_page(&$vars) {
@@ -81,12 +80,18 @@ function dsi_preprocess_node(&$vars) {
         $vars['classes_array'][] = t('home-panel');
         $vars['classes_array'][] = $panel_class;
     }
+    if($vars['type'] == 'event' && ($vars['view_mode'] == 'default' || $vars['view_mode'] == 'full')){
+        if(empty($vars['field_event_image'])){
+            $vars['classes_array'][] = t('no-image');
+        }
+    }
     $no_titles = array(
         'home_panel',
         'research',
         'core_department',
         'affiliated_units',
         'person',
+        'event'
     );
     if ((in_array($vars['type'],$no_titles)) && $vars['view_mode'] == 'teaser'){
         $vars['title']='';
