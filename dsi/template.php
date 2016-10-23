@@ -95,9 +95,20 @@ function dsi_preprocess_node(&$vars) {
         $vars['panel_bg_path'] = file_create_url($uri);
         
         $panel_type = $vars['field_panel_type'][LANGUAGE_NONE][0]['value'];
-        $panel_class= strtolower(str_replace(' ','-',$panel_type));
+        $panel_type= strtolower(str_replace(' ','-',$panel_type));
+        
+        if(!empty($vars['field_panel_size'])){
+            $size = $vars['field_panel_size'][LANGUAGE_NONE][0]['value'];
+            $size = strtolower(str_replace(' ','-',$size));
+            $vars['classes_array'][] = $size;
+        }
+        if(!empty($vars['field_panel_color'])){
+            $color = $vars['field_panel_color'][LANGUAGE_NONE][0]['value'];
+            $color = strtolower(str_replace(' ','-',$color));
+            $vars['classes_array'][] = $color;
+        }
         $vars['classes_array'][] = t('home-panel');
-        $vars['classes_array'][] = $panel_class;
+        $vars['classes_array'][] = $panel_type;
     }
     if($vars['type'] == 'event' && ($vars['view_mode'] == 'default' || $vars['view_mode'] == 'full')){
         if(empty($vars['field_event_image'])){

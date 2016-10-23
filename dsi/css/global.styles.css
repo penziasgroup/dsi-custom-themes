@@ -1265,11 +1265,14 @@ article,
 #branding{
     float: left;
 }
+#logo img{
+    max-width: 400px;
+}
 #burger-wrap,
 .region-header,
 #search-glass{
     float: right;
-    padding-top: 90px;
+    padding-top: 80px;
 }
 #search-glass{
     cursor: pointer;
@@ -1344,14 +1347,14 @@ article,
     border-top: 2px solid #ed1c24;
     margin-bottom: 35px;
 }
-.section-academic-programs #content .block-menu-block ul.menu li,
-.section-about #content .block-menu-block ul.menu li{
+.section-academic-programs #content .block-menu-block ul.menu li{
     width: 25%;
 }
 
 .section-research #content .block-menu-block{
     margin-bottom: 35px;
 }
+.section-about #content .block-menu-block ul.menu li,
 .section-research #content .block-menu-block ul.menu li{
     width: 33.33%;
 }
@@ -1409,12 +1412,12 @@ article,
     font-family: opensans-semi;
     margin: 0;
 }
-.front .double-link .node-inner-wrap{
+.front .small .node-inner-wrap{
     max-width: 960px;
     float: right;
 }
-.front .double-link .field-name-field-content,
-.front .double-link .field-type-link-field .field-item a{
+.front .red .field-name-field-content,
+.front .red .field-type-link-field .field-item a{
     background-color: rgba(237,28,36, .8);
 }
 .front .double-link .field-type-link-field .field-item{
@@ -1436,8 +1439,10 @@ article,
 .front .triple-link .field-type-link-field .field-item:nth-child(2) a{
     margin: 0 5px;
 }
-.front .view-reference .field-name-field-content{
+.front .blue .field-name-field-content{
     background-color: rgba(5,60,110, .5);
+}
+.front .view-reference .field-name-field-content{
     margin-bottom: 20px;
 }
 .front #content .node-research.node-teaser h2.node-title{
@@ -1475,6 +1480,10 @@ article,
 }
 
 /* Basic Pages & Paragraphs */
+
+.back-to-link{
+    margin-top: 30px;
+}
 
 h1#page-title{
   color: #959595;
@@ -1928,6 +1937,14 @@ span.addeventatc_icon.atc_node{
 .node-type-research .research-web-url,
 .node-type-research .field-name-field-funding-sources .field-label{
     font-family: opensans-bold;
+}
+
+.field-name-field-research-image-caption{
+    border-top: 1px solid #c2c2c2;
+    margin-top: 30px;
+    padding-top: 30px;
+    font-size: 11px;
+    font-style: italic;
 }
 
 /* Footer */
