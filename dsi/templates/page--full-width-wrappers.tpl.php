@@ -114,7 +114,9 @@ if(isset($header_image_path)){
 }
 
 if(isset($section_title)){
-    $title = $section_title;
+    $title = '<span class="section">' . $section_title . '</span> ' . $title;
+}elseif (!empty($title)){
+    $title = '<span class="section">' . $title . '</span> ';
 }
 
 ?>
