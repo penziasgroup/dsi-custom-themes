@@ -1891,17 +1891,17 @@ span.addeventatc_icon.atc_node{
     padding: 20px 35px;
     color: #FFF;
     background: rgba(0,0,0,.8);
-    font-size: 24px;
+    font-size: 20px;
     font-weight: normal;
-    line-height: 30px;
+    line-height: 24px;
 }
 .square-grid .node-inner-wrap{
     position: relative;
 }
 .square-grid.research h2.node-title a{
-    font-size: 20px;
+    font-size: 16px;
     font-family: opensans-semi;
-    line-height: 24px;
+    line-height: 20px;
 }
 .square-grid .views-row:hover article:before{
     content: '';
