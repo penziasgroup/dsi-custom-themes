@@ -97,7 +97,7 @@
   padding-left: 0;
 }
 #side-menu-wrapper ul.menu li ul ul{
-    padding: 5px 11px;
+    padding: 5px 0 5px 16px;
 }
 #side-menu-wrapper ul.menu li ul li {
   line-height: 25px;

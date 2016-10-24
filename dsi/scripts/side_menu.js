@@ -24,7 +24,7 @@
             $( window ).resize(function () {
                    $('#side-menu-wrapper').removeClass('open');
             });
-            
+            /*
             $('#side-menu-wrapper .block-content > .menu > li').each(function(){
                 if($(this).children('.menu').length != 0){
                     $(this).children('a').before('<div class="side-menu-opener"></div>');
@@ -35,6 +35,7 @@
                    $(this).siblings('.menu').toggle();
                    $(this).toggleClass('open');
             });
+            */
         
         });
     } // end of attach function
