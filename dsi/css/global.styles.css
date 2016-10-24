@@ -1562,8 +1562,9 @@ h1#page-title .section{
     background: rgba(0,0,0,.8);
     box-sizing: border-box;
     width: 100%;
-    padding: 10px 20px;
-    font-size: 18px;
+    font-size: 1.3vw;
+    line-height: 1.6vw;
+    padding: .7vw 1.42vw;
 }
 .people-grid .views-field-field-person-image{
     background: #7f7f7f;
