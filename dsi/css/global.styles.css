@@ -1696,8 +1696,9 @@ h1#page-title .section{
 
 .node-core-department.node-teaser h2.node-title{
     font-size: 36px;
+    line-height: 44px;
     font-family: opensans-semi;
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 .group-dept-head .field-name-field-dept-head-name .field-item:after{
@@ -1901,12 +1902,12 @@ span.addeventatc_icon.atc_node{
 }
 .square-grid h2.node-title a{
     display: block;
-    padding: 20px 35px;
     color: #FFF;
     background: rgba(0,0,0,.8);
-    font-size: 20px;
     font-weight: normal;
-    line-height: 24px;
+    line-height: 1.75vw;
+    font-size: 1.43vw;
+    padding: 1.4vw 2.5vw;
 }
 .square-grid .node-inner-wrap{
     position: relative;
