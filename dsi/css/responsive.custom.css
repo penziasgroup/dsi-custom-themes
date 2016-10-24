@@ -128,6 +128,14 @@
         padding-left: 20px;
         padding-right: 20px;
     }
+    h1#page-title{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    h1#page-title .section{
+        font-size: 42px;
+        line-height: 42px;
+    }
 }
 @media only screen and (max-width: 768px) {
     .region-leaderboard, #header, #footer, .not-front #columns, .not-front #main-content-header .title-wrap{
