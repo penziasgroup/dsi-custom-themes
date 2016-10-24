@@ -133,6 +133,7 @@
     .region-leaderboard, #header, #footer, .not-front #columns, .not-front #main-content-header .title-wrap{
         padding: 0 30px;
     }
+    .section-academic-programs #content .block-menu-block ul.menu li,
     .section-about #content .block-menu-block ul.menu li, .section-research #content .block-menu-block ul.menu li{
         width: 100%;
         padding-right: 0;
@@ -140,7 +141,7 @@
     .field-name-field-big-link a, #content .block-menu-block ul.menu li a{
         font-size: 16px;
         line-height: 24px;
-        padding: 20px;
+        padding: 13px 20px;
     }
     .node-core-department.node-teaser .field-name-field-dept-image{
         display: none;
