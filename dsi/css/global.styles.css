@@ -1495,7 +1495,9 @@ h1#page-title{
   font-size: 36px;
   line-height: 36px;
   padding-top: 35px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  margin-bottom: 20px
 }
 h1#page-title .section{
     font-size: 48px;
