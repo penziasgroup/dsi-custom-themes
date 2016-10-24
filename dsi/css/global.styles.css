@@ -1903,6 +1903,9 @@ span.addeventatc_icon.atc_node{
     font-family: opensans-semi;
     line-height: 20px;
 }
+.square-grid .views-row{
+    position: relative;
+}
 .square-grid .views-row:hover article:before{
     content: '';
     display: block;
