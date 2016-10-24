@@ -17,6 +17,10 @@
     .section-academic-programs #content .block-menu-block{
         padding-top: 225px;
     }
+    .field-name-field-big-link a, #content .block-menu-block ul.menu li a{
+        padding: 20px;
+        font-size: 30px;
+    }
     .front .home-panel{
         padding-top: 100px;
         padding-bottom: 200px;
@@ -65,6 +69,15 @@
 @media only screen and (max-width: 768px) {
     .region-leaderboard, #header, #footer, .not-front #columns, .not-front #main-content-header .title-wrap{
         padding: 0 30px;
+    }
+    .section-about #content .block-menu-block ul.menu li, .section-research #content .block-menu-block ul.menu li{
+        width: 100%;
+        padding-right: 0;
+    }
+    .field-name-field-big-link a, #content .block-menu-block ul.menu li a{
+        font-size: 16px;
+        line-height: 24px;
+        padding: 20px;
     }
 }
 
@@ -146,6 +159,9 @@
 }
 
 @media only screen and (max-width: 480px) {
-
+    .field-name-field-image-grid-item .field-item{
+        margin-right: 2%;
+        width: 48%;
+    }
 }
 
