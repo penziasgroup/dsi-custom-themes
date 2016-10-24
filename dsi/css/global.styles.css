@@ -1910,6 +1910,7 @@ span.addeventatc_icon.atc_node{
     height: 3px;
     width: 100%;
     background: #ed1c24;
+    z-index: 99;
 }
 .square-grid .views-row:hover h2.node-title a{
     background: rgba(237,28,36,.8);
