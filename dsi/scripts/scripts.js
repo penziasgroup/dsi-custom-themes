@@ -6,7 +6,7 @@
         $('#u-nav').slideToggle();
     });
     $('#search-glass').click(function(){
-        $('#block-search-form').toggle('slide');
+        $('.region-header').slideToggle();
     });
     
      /* =============================================================================
@@ -28,9 +28,11 @@
                 var carousel = $(this),
                     width = carousel.innerWidth();
 
-                if (width >= 600) {
+                if (width >= 1080) {
                     width = width / 4;
-                } else if (width >= 350) {
+                } else if (width >= 600) {
+                    width = width / 3;
+                } else if (width >= 484) {
                     width = width / 2;
                 }
 

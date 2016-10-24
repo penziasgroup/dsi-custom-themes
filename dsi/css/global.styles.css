@@ -1266,13 +1266,15 @@ article,
     float: left;
 }
 #logo img{
-    max-width: 400px;
+    width: 400px;
 }
 #burger-wrap,
-.region-header,
 #search-glass{
     float: right;
     padding-top: 80px;
+}
+.region-header{
+    clear: both;
 }
 #search-glass{
     cursor: pointer;
@@ -1281,17 +1283,18 @@ article,
     margin-top: 10px;
 }
 #block-search-form{
-    height: 30px !important;
-    margin: 0;
-    margin-top: 11px !important;
+    margin-bottom: 0;
+    float: right;
+    width: 243px;
+    padding-right: 17px;
 }
-#block-search-form,
+.region-header,
 #block-search-form input[type='submit']{
     display: none;
 }
 #block-search-form input[type='search']{
     padding: 6px;
-    width: 155px;
+    width: 100%;
 }
 .burger{
     font-size: 24px;
@@ -1365,38 +1368,38 @@ article,
 .front #content .node-content,
 .front #content .node-content a{
     color: #FFF;
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 2.1vw;
+    line-height: 2.8vw;
 }
 .front #content .node-content .contextual-links-wrapper a{
     font-size: 14px;
 }
 
 .front .field-name-field-headline{
-    font-size: 75px;
+    font-size: 5.3vw;
     font-weight: bold;
     font-family: 'vitesse';
     text-transform: uppercase;
     line-height: .75;
-    padding-left: 45px;
+    padding-left: 3.15vw;
 }
 
 .front .field-name-field-content{
     background-color: rgba(0,0,0, .6);
-    padding: 45px 45px;
+    padding: 3.2vw;
 }
 .front .home-panel{
-    padding-top: 100px;
-    padding-bottom: 200px;
+    padding-top: 7vw;
+    padding-bottom: 14vw;
 }
 .front .home-panel.no-link{
     padding-bottom: 0;
 }
 .front .no-link .field-name-field-content{
-    font-size: 45px;
-    line-height: 48px;
+    font-size: 3.18vw;
+    line-height: 3.4vw;
     font-family: opensans-light;
-    padding: 45px 75px;
+    padding: 3.2vw 5.2vw;
 }
 .front .field-type-link-field{
     margin-top: 5px;
@@ -1447,7 +1450,7 @@ article,
 }
 .front #content .node-research.node-teaser h2.node-title{
     background-color: rgba(0,115,185, .9);
-    padding: 25px 20px;
+    padding: 1.8vw 1.4vw;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -1455,9 +1458,9 @@ article,
 }
 .front #content .node-research.node-teaser h2.node-title,
 .front #content .node-research.node-teaser h2.node-title a{
-    font-size: 14px;
+    font-size: 13px;
     font-family: opensans-semi;
-    line-height: 22px;
+    line-height: 17px;
     display: block;
 }
 .front #content .node-research.node-teaser{
@@ -1469,6 +1472,7 @@ article,
 }
 .front #content .node-research.node-teaser img{
     display: block;
+    width: 100%;
 }
 .front .carousel-wrap .view-content{
     padding: 0 40px;

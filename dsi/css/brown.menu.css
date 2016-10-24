@@ -223,3 +223,43 @@ a.giving-footer {
   #brown-footer #brown-contact {
     clear: none;
     float: left; } 
+  
+  @media only screen and (max-width: 1024px){
+      #brown-footer section{
+          width: auto;
+      }
+  }
+  
+  @media only screen and (max-width: 768px) {
+      #brown-nav{
+          display: none;
+      }
+      #brown-nav .marginator, #brown-footer .marginator{
+          padding: 0 35px;
+      }
+      #brown-nav h1 a{
+          top: -4px;
+          background-size: 280px;
+      }
+  }
+  @media only screen and (max-width: 620px){
+      #brown-footer section{
+          float: none;
+      }
+      #brown-footer #give-to-brown{
+          padding-left: 0;
+          border: none;
+          min-height: 0;
+          margin-bottom: 30px;
+      }
+      #brown-footer #brown-contact h1{
+          background-position: -8px 0;
+          width: auto;
+      }
+  }
+  @media only screen and (max-width: 428px) {
+      #brown-nav h1 a{
+          top: -4px;
+          background-size: 280px;
+      }
+  }

@@ -13,9 +13,135 @@
  * look under the "CSS" settings tab.
  */
 
-@media only screen and (min-width: 1518px) {
+@media only screen and (min-width: 1400px) {
     .section-academic-programs #content .block-menu-block{
         padding-top: 225px;
+    }
+    .front .home-panel{
+        padding-top: 100px;
+        padding-bottom: 200px;
+    }
+    .front .field-name-field-headline{
+        font-size: 75px;
+        padding-left: 45px;
+    }
+    .front #content .node-content, .front #content .node-content a{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .front .no-link .field-name-field-content{
+        font-size: 45px;
+        line-height: 48px;
+        padding: 45px 75px;
+    }
+    .front .field-name-field-content{
+        padding: 45px;
+    }
+    .front #content .node-research.node-teaser h2.node-title{
+        padding: 25px 20px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #logo img{
+        width: 300px;
+    }
+    .burger{
+        font-size: 20px;
+    }
+    .burger img{
+        width: 40px;
+    }
+    #search-glass{
+        margin-top: 3px;
+    }
+    #block-search-form{
+        margin-top: 3px !important;
+    }
+    #burger-wrap, #search-glass{
+        padding-top: 58px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .region-leaderboard, #header, #footer, .not-front #columns, .not-front #main-content-header .title-wrap{
+        padding: 0 30px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    #logo img{
+        width: 250px;
+    }
+    .burger img{
+        width: 36px;
+    }
+    #search-glass img{
+        width: 31px;
+    }
+    #burger-wrap, #search-glass{
+        padding-top: 47px;
+    }
+    #block-search-form{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .region-header{
+        padding-top: 10px;
+    }
+    
+    .front .field-name-field-headline{
+        font-size: 32px;
+        line-height: 33px;
+        margin-bottom: -5px;
+    }
+    .front #content .node-content, .front #content .node-content a{
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .front .no-link .field-name-field-content{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .front .field-type-link-field .field-item,
+    .front .double-link .field-type-link-field .field-item,
+    .front .triple-link .field-type-link-field .field-item{
+        display: block;
+        margin-right: 0;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    .front #content .node-research.node-teaser h2.node-title, .front #content .node-research.node-teaser h2.node-title a{
+        padding: 7px 10px;
+    }
+    #footer .block-title{
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+    #footer h3{
+        font-size: 20px;
+    }
+    #footer #block-block-1 p{
+        font-size: 13px;
+    }
+    #footer #block-menu-block-2{
+        font-size: 16px;
+    }
+    #footer #block-block-1,
+    #footer #block-menu-block-2{
+        clear: both;
+        float: none;
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 520px) {
+    #burger-wrap{
+        clear: both;
+        margin-left: 3px;
+        margin-right: 15px;
+    }
+    #burger-wrap, #search-glass{
+        padding-top: 15px;
+        float: left;
     }
 }
 
