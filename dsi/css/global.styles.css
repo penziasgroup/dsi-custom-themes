@@ -1921,6 +1921,11 @@ span.addeventatc_icon.atc_node{
 
 /* Research Detail */
 
+.node-type-research .field-name-field-reseawrch-image{
+    border-bottom: 1px solid red;
+    padding-bottom: 30px;
+}
+
 .node-type-research h2.node-title{
     font-family: opensans-bold;
     font-size: 30px;
