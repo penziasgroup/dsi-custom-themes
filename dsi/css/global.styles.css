@@ -1895,6 +1895,9 @@ span.addeventatc_icon.atc_node{
     font-weight: normal;
     line-height: 30px;
 }
+.square-grid .node-inner-wrap{
+    position: relative;
+}
 .square-grid.research h2.node-title a{
     font-size: 16px;
     font-family: opensans-semi;
