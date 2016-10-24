@@ -2029,3 +2029,14 @@ span.addeventatc_icon.atc_node{
     margin-top: 0;
     margin-bottom: 0;
 }
+
+.page-search #search-form{
+    margin-top: 20px;
+}
+.page-search #search-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+.page-search .search-info{
+    display: none;
+}
