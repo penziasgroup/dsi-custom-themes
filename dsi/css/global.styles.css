@@ -1868,6 +1868,13 @@ span.addeventatc_icon.atc_node{
     top: 0;
 }
 
+.view-taxonomy-term .view-header h2{
+    font-size: 24px;
+}
+.view-taxonomy-term .attachment-after{
+    margin-top: 35px;
+}
+
 /* Affliated Grid & Research Grid */
 
 .square-grid .views-row{
