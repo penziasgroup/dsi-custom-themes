@@ -170,6 +170,33 @@
         min-width: 0;
         width: auto;
     }
+    .node-type-event .group-event-image,
+    .group-date, .group-event-info{
+        display: block;
+    }
+    .node-type-event .group-event-image{
+        max-width: 280px;
+        margin-bottom: 20px;
+    }
+    .group-event-info{
+        width: 100%;
+        padding-left: 0;
+        padding-top: 0;
+    }
+    .node-event.node-teaser .group-date{
+        border-top: 0;
+        width: 100%;
+    }
+    .view-events .attachment-before .group-event-image,
+    .view-events .attachment-before .group-event-info{
+        display: table-cell;
+    }
+    .view-events .attachment-before .group-event-image{
+        width: 200px;
+        min-width: 200px;
+        padding-right: 25px;
+        padding-top: 0;
+    }
 }
 
 @media only screen and (max-width: 620px) {
@@ -248,7 +275,21 @@
         float: none;
         margin-bottom: 10px;
     }
+    
 }
+@media only screen and (max-width: 580px){
+    .view-events .attachment-before .group-event-info{
+        display: block;
+    }
+    .view-events .attachment-before .group-event-image{
+        width: auto;
+        min-width: 0;
+        padding-right: 0;
+        padding-top: 0;
+        margin-bottom: 15px;
+    }
+}
+
 @media only screen and (max-width: 520px) {
     #burger-wrap{
         clear: both;
