@@ -237,6 +237,8 @@
     .front #content .node-content, .front #content .node-content a{
         font-size: 16px;
         line-height: 20px;
+        margin-left: 0;
+        margin-right: 0;
     }
     .front .no-link .field-name-field-content{
         font-size: 20px;
