@@ -343,5 +343,13 @@
         line-height: 22px;
         padding: 10px 20px;
     }
+    h1#page-title {
+        font-size: 26px;
+        line-height: 28px;
+    }
+    h1#page-title .section {
+        font-size: 28px;
+        line-height: 32px;
+    }
 }
 
