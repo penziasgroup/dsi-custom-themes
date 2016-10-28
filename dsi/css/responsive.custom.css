@@ -296,6 +296,8 @@
         padding-right: 0;
         padding-top: 0;
         margin-bottom: 15px;
+        display: block;
+        max-width: 280px;
     }
 }
 
