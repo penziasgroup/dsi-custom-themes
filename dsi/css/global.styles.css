@@ -1250,6 +1250,12 @@ div.messages ul {
 .not-front #main-content-header .title-wrap{
     padding: 0 50px;
 }
+#page-wrapper{
+    margin-top: -6px;
+}
+#header{
+    padding-top: 20px;
+}
 
 article,
 .node{

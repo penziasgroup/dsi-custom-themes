@@ -122,54 +122,89 @@ if(isset($section_title)){
 ?>
 
 <section id="brown-nav" class="">
-    <div class="marginator">
-        <header id="brown-header">
-            <h1><a href="//www.brown.edu">Explore Brown University</a></h1>
-            <span class="toggle"><a href="#" id="brown-menu-button">Explore Brown University</a></span>
-        </header>
-        <nav id="u-nav">
-            <div class="item-list" id="learn-list">
-                <h3>Learn More</h3>
-                <ul>
-                    <li class="first"><a href="//www.brown.edu/">Brown Homepage</a></li>
-                    <li><a href="//www.brown.edu/about">About Brown</a></li>
-                    <li><a href="//www.brown.edu/academics">Academics</a></li>
-                    <li><a href="//www.brown.edu/admission">Admission</a></li>
-                    <li><a href="//www.brown.edu/research">Research</a></li>
-                    <li class="last"><a href="//www.brown.edu/campus-life">Campus Life</a></li>
-                </ul>
+  <div class="marginator">
+    <div id="brown-header">
+      <div class="penzias-wrap">
+      <h1><a href="//www.brown.edu">Explore Brown University</a></h1>
+      <span class="search-brown">
+      <a href="https://www.brown.edu/search" id="search-brown-button">Search Brown</a></span> 
+      <span class="toggle-brown"><a href="#" id="brown-menu-button">Show/Hide</a></span> 
+      <div id="brown-nav-region">
+      <div class="block block-bs2-search block-bs2-search-bs2-search-block ">
+        <div class="width">
+          <div id="___gcse_0">
+            <div class="gsc-control-searchbox-only gsc-control-searchbox-only-en" dir="ltr">
+              <form class="gsc-search-box" accept-charset="utf-8">
+                <table cellspacing="0" cellpadding="0" class="gsc-search-box">
+                  <tbody>
+                    <tr>
+                      <td class="gsc-input"><input autocomplete="off" type="text" size="10" class=" gsc-input" name="search" title="search" id="gsc-i-id1" dir="ltr" spellcheck="false" style="outline: none;">
+                        <input type="hidden" name="bgresponse" id="bgresponse"></td>
+                      <td class="gsc-search-button"><input type="button" value="Search" class="gsc-search-button" title="search"></td>
+                      <td class="gsc-clear-button"><div class="gsc-clear-button" title="clear results">&nbsp;</div></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table cellspacing="0" cellpadding="0" class="gsc-branding">
+                  <tbody>
+                    <tr style="display: none;">
+                      <td class="gsc-branding-user-defined"></td>
+                      <td class="gsc-branding-text"><div class="gsc-branding-text">powered by</div></td>
+                      <td class="gsc-branding-img"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </form>
             </div>
-            <div class="item-list" id="find-list">
-                <h3>Find</h3>
-                <ul>
-                    <li class="first"><a href="//www.brown.edu/a-to-z">A to Z Index</a></li>
-                    <li class="last"><a href="//directory.brown.edu">People Directory</a></li>
-                </ul>
-            </div>
-            <div class="item-list" id="information-list">
-                <h3>Information for</h3>
-                <ul>
-                    <li class="first"><a href="//www.brown.edu/gateway/current-students">Students</a></li>
-                    <li><a href="//www.brown.edu/gateway/faculty">Faculty</a></li>
-                    <li><a href="//www.brown.edu/gateway/staff">Staff</a></li>
-                    <li><a href="//www.brown.edu/gateway/families">Families</a></li>
-                    <li><a href="//www.brown.edu/gateway/alumni">Alumni</a></li>
-                    <li class="last"><a href="//www.brown.edu/gateway/friends-and-neighbors">Friends &amp; Neighbors</a></li>
-                </ul>
-            </div>
-            <div class="item-list">
-                <h3>Top Destinations</h3>
-                <ul>
-                    <li><a href="http://www.brown.edu/about/administration/global-engagement/">Global Brown</a></li>
-                    <li><a href="http://watson.brown.edu/">Watson Institute</a></li>
-                    <li><a href="http://brown.edu/web/providence" title="Brown Supports Providence">Brown &amp; Providence</a></li>
-                    <li><a href="http://www.brown.edu/gradschool">Graduate School</a></li>
-                    <li><a href="http://med.brown.edu">Alpert Medical School</a></li>
-                    <li><a href="http://www.brown.edu/academics/public-health/" title="School of Public Health">School of Public Health</a></li>
-                    <li><a href="http://brown.edu/academics/engineering/">School of Engineering</a></li>
-                </ul>
-            </div>
-        </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
+    <nav id="u-nav">
+      <div class="penzias-wrap">
+      <div class="item-list" id="learn-list">
+        <h3>Learn More</h3>
+        <ul>
+          <li><a href="//www.brown.edu/about">About Brown</a></li>
+          <li><a href="//www.brown.edu/academics">Academics</a></li>
+          <li><a href="//www.brown.edu/admission">Admission</a></li>
+          <li><a href="//www.brown.edu/research">Research</a></li>
+          <li class="last"><a href="//www.brown.edu/campus-life">Campus Life</a></li>
+        </ul>
+      </div>
+      <div class="item-list" id="find-list">
+        <h3>Find</h3>
+        <ul>
+          <li class="first"><a href="//www.brown.edu/a-to-z">A to Z Index</a></li>
+          <li class="last"><a href="//directory.brown.edu">People Directory</a></li>
+        </ul>
+      </div>
+      <div class="item-list" id="information-list">
+        <h3>Information for</h3>
+        <ul>
+          <li class="first"><a href="//www.brown.edu/gateway/current-students">Students</a></li>
+          <li><a href="//www.brown.edu/gateway/faculty">Faculty</a></li>
+          <li><a href="//www.brown.edu/gateway/staff">Staff</a></li>
+          <li><a href="//www.brown.edu/gateway/families">Families</a></li>
+          <li><a href="//www.brown.edu/gateway/alumni">Alumni</a></li>
+          <li class="last"><a href="//www.brown.edu/gateway/friends-and-neighbors">Friends &amp; Neighbors</a></li>
+        </ul>
+      </div>
+      <div class="item-list" id="destination-list">
+        <h3>Top Destinations</h3>
+        <ul>
+          <li><a href="http://www.brown.edu/about/administration/global-engagement/">Global Brown</a></li>
+          <li><a href="http://watson.brown.edu/">Watson Institute</a></li>
+          <li><a href="http://www.brown.edu/gradschool">Graduate School</a></li>
+          <li><a href="http://med.brown.edu">Alpert Medical School</a></li>
+          <li><a href="http://www.brown.edu/academics/public-health/">School of Public Health</a></li>
+          <li><a href="http://brown.edu/academics/engineering/">School of Engineering</a></li>
+        </ul>
+      </div>
+      </div>
+    </nav>
     </div>
 </section>
 
@@ -334,33 +369,31 @@ if(isset($section_title)){
       </div>
     <?php endif; ?>
       
-    <footer id="brown-footer">
-        <div class="marginator">
-            <section>
-                <div id="give-to-brown">
-                    <a class="giving-footer" href="http://giving.brown.edu">Giving to Brown</a>
-                </div>
-            </section>
-            <div id="brown-contact">
-                <h1>Brown University</h1>
-                <p><span class="city-state-country">Providence, Rhode Island 02912, USA</span><br>
-                <span class="telephone">Phone: 401-863-1000</span><br>
-                <span class="maps-contact"><a href="http://www.brown.edu/Facilities/Facilities_Management/maps/#building/" tabindex="220">Maps</a> &amp; <a href="http://www.brown.edu/about/visit/driving-directions" tabindex="221">Directions</a> / <a href="http://www.brown.edu/contact" accesskey="9" tabindex="222">Contact Us</a></span><br>
-                <span class="copyright">© 2016 Brown University</span></p>
-                <p class="social-links">Connect: <a href="http://www.brown.edu/about/social-media/" title="Get Connected to the Brown Community">Social@Brown</a></p>
-                <ul class="social-media">
-                    <li><a href="https://www.facebook.com/BrownUniversity" title="Facebook" id="footer-facebook">Facebook</a></li>
-                    <li><a href="https://twitter.com/BrownUniversity" title="Twitter" id="footer-twitter">Twitter</a></li>
-                    <li><a href="http://www.youtube.com/brownuniversity" title="YouTube" id="footer-youtube">YouTube</a></li>
-                    <li><a href="http://instagram.com/brownu" title="Instagram" id="footer-instagram">Instagram</a></li>
-                    <li><a href="http://itunes.apple.com/institution/brown-university/id381076688#ls=1" title="iTunes U" id="footer-itunesu">iTunes U</a></li>
-                    <li><a href="https://plus.google.com/100931085598361161047/posts" title="Google+" id="footer-google-plus">Google+</a></li>
-                    <li><a href="https://www.linkedin.com/edu/school?id=19348&amp;trk=tyah" title="LinkedIn" id="footer-linkedin">LinkedIn</a></li>
-                    <li><a href="https://www.snapchat.com/add/brown-u" title="brown-u on Snapchat" id="footer-snapchat">SnapChat</a></li>        
-                </ul>
-            </div>
-        </div>
-    </footer>
-
   </div>
 </div>
+
+<footer id="brown-footer">
+  <div class="marginator">
+    <section>
+      <div id="give-to-brown"> <a class="giving-footer" href="http://giving.brown.edu">Giving to Brown</a> </div>
+    </section>
+    <div id="brown-contact">
+      <h1>Brown University</h1>
+      <p><span class="city-state-country">Providence, Rhode Island 02912, USA</span><br>
+        <span class="telephone">Phone: 401-863-1000</span><br>
+        <span class="maps-contact"><a href="http://www.brown.edu/Facilities/Facilities_Management/maps/#building/" tabindex="220">Maps</a> &amp; <a href="http://www.brown.edu/about/visit/driving-directions" tabindex="221">Directions</a> / <a href="http://www.brown.edu/contact" accesskey="9" tabindex="222">Contact Us</a></span><br>
+        <span class="copyright">© 2016 Brown University</span></p>
+      <p class="social-links">Connect: <a href="http://www.brown.edu/about/social-media/" title="Get Connected to the Brown Community">Social@Brown</a></p>
+      <ul class="social-media">
+        <li><a href="https://www.facebook.com/BrownUniversity" title="Facebook" id="footer-facebook">Facebook</a></li>
+        <li><a href="https://twitter.com/BrownUniversity" id="footer-twitter">Twitter</a></li>
+        <li><a href="http://www.youtube.com/brownuniversity" id="footer-youtube">YouTube</a></li>
+        <li><a href="http://instagram.com/brownu" id="footer-instagram">Instagram</a></li>
+        <li><a href="http://itunes.apple.com/institution/brown-university/id381076688#ls=1" id="footer-itunesu">iTunes U</a></li>
+        <li><a href="https://plus.google.com/100931085598361161047/posts" id="footer-google-plus">Google+</a></li>
+        <li><a href="https://www.linkedin.com/edu/school?id=19348&amp;trk=tyah" id="footer-linkedin">LinkedIn</a></li>
+        <li><a href="https://www.snapchat.com/add/brown-u" id="footer-snapchat">SnapChat</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>

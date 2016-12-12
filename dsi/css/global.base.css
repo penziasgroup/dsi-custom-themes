@@ -105,7 +105,7 @@ button,
 input,
 select,
 textarea {
-  font-family: sans-serif;
+
 }
 
 /* =============================================================================
@@ -116,7 +116,7 @@ textarea {
  */
 /* line 124, ../sass/global.base.scss */
 a:focus {
-  outline: thin dotted;
+
 }
 
 /*
@@ -135,7 +135,7 @@ a:active {
  */
 /* line 189, ../sass/global.base.scss */
 abbr[title] {
-  border-bottom: 1px dotted;
+
 }
 
 /*
@@ -187,9 +187,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: monospace, serif;
-  _font-family: 'courier new', monospace;
-  font-size: 1em;
+
 }
 
 /*

@@ -2,9 +2,6 @@
   Drupal.behaviors.genScripts = {
     attach: function (context, settings) {   
         
-    $('#brown-menu-button').click(function(){
-        $('#u-nav').slideToggle();
-    });
     $('#search-glass').click(function(){
         $('.region-header').slideToggle();
     });
