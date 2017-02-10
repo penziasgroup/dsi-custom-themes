@@ -775,6 +775,9 @@ ul.action-links {
 .block {
   margin-bottom: 20px;
 }
+.front #block-system-main{
+    margin-bottom: 0;
+}
 
 /*
  * Inner wrapper for most blocks, good for margin, padding and borders, block_system_main does not have it
@@ -1340,6 +1343,9 @@ article,
     padding: 1.4vw;
     font-size: 2.1vw;
 }
+.section-about #content .block-menu-block ul.menu li a{
+    font-size: 1.85vw;
+}
 .field-name-field-big-link a{
     text-align: center;
 }
@@ -1364,9 +1370,12 @@ article,
     margin-bottom: 35px;
     margin-top: 20px;
 }
-.section-about #content .block-menu-block ul.menu li,
 .section-research #content .block-menu-block ul.menu li{
     width: 33.33%;
+}
+.section-about #content .block-menu-block ul.menu li{
+    width: 25%;
+    padding-right: 4px;
 }
 
 
@@ -2009,6 +2018,9 @@ span.addeventatc_icon.atc_node{
     padding-top: 20px;
     padding-bottom: 10px;
 }
+.front #footer-wrapper{
+    margin-top: 0;
+}
 #footer .block-title{
     font-family: opensans-light;
     font-size: 36px;
@@ -2029,6 +2041,17 @@ span.addeventatc_icon.atc_node{
 }
 #footer #block-block-1 .block-content ul li img{
     width: 75%;
+}
+#footer #block-block-2{
+    font-size: 18px;
+    float: left;
+    margin-left: 5vw;
+}
+#footer #block-block-2 .block-content{
+    margin-top: 10px;
+}
+#footer #block-block-2 .block-content p{
+    margin-bottom: 0;
 }
 #footer #block-menu-block-2{
     float: right;

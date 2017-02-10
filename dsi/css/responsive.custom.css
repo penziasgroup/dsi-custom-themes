@@ -26,6 +26,9 @@
         padding: 20px;
         font-size: 30px;
     }
+    .section-about #content .block-menu-block ul.menu li a{
+        font-size: 26px;
+    }
     .front .home-panel{
         padding-top: 100px;
         padding-bottom: 200px;
@@ -137,6 +140,25 @@
         line-height: 42px;
     }
 }
+@media only screen and (max-width: 860px) {
+    #footer .block-title{
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+    #footer h3{
+        font-size: 20px;
+    }
+    #footer #block-block-1 .block-content{
+        margin-top: 7px;
+    }
+    #footer #block-block-1 p{
+        font-size: 13px;
+    }
+    #footer #block-menu-block-2,
+    #footer #block-block-2{
+        font-size: 16px;
+    }
+}
 @media only screen and (max-width: 768px) {
     .region-leaderboard, #header, #footer, .not-front #columns, .not-front #main-content-header .title-wrap{
         padding: 0 30px;
@@ -146,7 +168,9 @@
         width: 100%;
         padding-right: 0;
     }
-    .field-name-field-big-link a, #content .block-menu-block ul.menu li a{
+    .field-name-field-big-link a, 
+    #content .block-menu-block ul.menu li a,
+    .section-about #content .block-menu-block ul.menu li a{
         font-size: 16px;
         line-height: 24px;
         padding: 13px 20px;
@@ -205,6 +229,14 @@
         min-width: 200px;
         padding-right: 25px;
         padding-top: 0;
+    }
+    #footer #block-block-1,
+    #footer #block-block-2,
+    #footer #block-menu-block-2{
+        clear: both;
+        float: none;
+        margin-bottom: 10px;
+        margin-left: 0;
     }
 }
 
@@ -266,25 +298,6 @@
     }
     .card-content-inner{
         max-width: 280px;
-    }
-    #footer .block-title{
-        font-size: 25px;
-        margin-bottom: 0;
-    }
-    #footer h3{
-        font-size: 20px;
-    }
-    #footer #block-block-1 p{
-        font-size: 13px;
-    }
-    #footer #block-menu-block-2{
-        font-size: 16px;
-    }
-    #footer #block-block-1,
-    #footer #block-menu-block-2{
-        clear: both;
-        float: none;
-        margin-bottom: 10px;
     }
     
 }
