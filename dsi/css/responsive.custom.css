@@ -70,22 +70,23 @@
 }
 @media only screen and (max-width: 1024px) {
     #logo img{
-        width: 300px;
+        width: 490px;
     }
     .burger{
         font-size: 20px;
+        margin-top: 1px;
     }
     .burger img{
         width: 40px;
     }
+    #header-wrapper{
+        padding-top: 80px;
+    }
     #search-glass{
-        margin-top: 3px;
+        margin-top: 1px;
     }
     #block-search-form{
         margin-top: 3px !important;
-    }
-    #burger-wrap, #search-glass{
-        padding-top: 58px;
     }
     .node-core-department.node-teaser .field-name-field-dept-image{
         width: 200px;
@@ -141,6 +142,34 @@
     }
 }
 @media only screen and (max-width: 860px) {
+    #header-wrapper{
+        padding-top: 60px;
+    }
+    .burger img{
+        width: 36px;
+    }
+    #search-glass img{
+        width: 31px;
+    }
+    #burger-wrap, #search-glass{
+        padding-top: 47px;
+    }
+    #block-search-form{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .region-header{
+        padding-top: 10px;
+    }
+    #burger-wrap{
+        clear: both;
+        margin-right: 15px;
+    }
+    #burger-wrap, #search-glass{
+        padding-top: 15px;
+        float: left;
+    }
+    
     #footer .block-title{
         font-size: 25px;
         margin-bottom: 0;
@@ -241,25 +270,6 @@
 }
 
 @media only screen and (max-width: 620px) {
-    #logo img{
-        width: 250px;
-    }
-    .burger img{
-        width: 36px;
-    }
-    #search-glass img{
-        width: 31px;
-    }
-    #burger-wrap, #search-glass{
-        padding-top: 47px;
-    }
-    #block-search-form{
-        width: 100%;
-        box-sizing: border-box;
-    }
-    .region-header{
-        padding-top: 10px;
-    }
     
     .front .field-name-field-headline{
         font-size: 32px;
@@ -313,18 +323,6 @@
         margin-bottom: 15px;
         display: block;
         max-width: 280px;
-    }
-}
-
-@media only screen and (max-width: 520px) {
-    #burger-wrap{
-        clear: both;
-        margin-left: 3px;
-        margin-right: 15px;
-    }
-    #burger-wrap, #search-glass{
-        padding-top: 15px;
-        float: left;
     }
 }
 
